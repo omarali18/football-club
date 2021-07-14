@@ -1,0 +1,83 @@
+/* ===================================
+        font family Poppins added 
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* =======================
+       style for header 
+===========================*/
+.header-divide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D25A0;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.header-text{
+   color: #FFFFFF;
+}
+.header-title{
+    font-size: 64px;
+    line-height: 80px;
+}
+/* ========================================
+        
+============================================*/
+@keyframes color {
+    from{
+        background-color: #917323;
+    }
+    to{
+        background-color: #27972c;
+    }
+    
+} 
+
+/* ****animation in WATCH LIVE button****  */
+
+.header-text a{
+    text-decoration: none;
+    font-size: 16px;
+    Padding: 10px 24px 10px 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    animation: color 1s ease-in-out .2s infinite alternate ;
+}
+.header-divide:hover a{
+    animation-play-state:running;
+}
+.header-text a .button-icon{
+    padding-left: 3px;
+}
+.banner img{
+    Width: 556.01px;
+    Height:438px;
+}
+/* ===============================
+    Players Field styles 
+==================================*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.player{
+   
+    padding: 15px;
+    box-shadow: .5px .5px 10px gray;
+    display: flex;
+    flex-direction: column;
+}
+.player-image img{
+    width: 100%;
+}
