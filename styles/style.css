@@ -17,7 +17,7 @@ body{
     background-color: #2D25A0;
     padding-top: 80px;
     padding-bottom: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .header-text{
    color: #FFFFFF;
@@ -67,7 +67,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    grid-row-gap: 20px;
+    grid-row-gap: 27px;
     margin-left: 180px;
     margin-right: 210px;
 }
