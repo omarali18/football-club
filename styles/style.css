@@ -157,6 +157,11 @@ footer{
     border-radius: 50%;
     padding: 10px;
 }
+
+/* ====================================
+        @media query for pnone 
+======================================*/
+
 @media only screen and (max-width:688px){
    
     .header-divide{
@@ -197,4 +202,30 @@ footer{
     .footer-logo{
         width: 300px;
     }
+}
+
+/* ====================================
+        @media query for pnone 
+======================================*/
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    .header-divide {
+        display: flex;
+    }
+    .header-title{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .banner img{
+        width: 400px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 15px;
+    }
+    
+    
 }
