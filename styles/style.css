@@ -91,3 +91,41 @@ body{
     line-height: 26px;
     color: #6C6C6C;
 }
+/* ==================================
+        highlights-copa-2021 style
+=====================================*/
+.highlights-copa-2021{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 210px;
+    
+}
+.highlights-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+.highlights-title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+.highlights-button a{
+    text-decoration: none;
+    font-size: 16px;
+    Padding: 10px 24px 10px 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+.highlights-history{
+    margin-top: 10px;
+    margin-bottom: 24px ;
+}
+.highlights-banner img{
+    width: 100%;
+}
