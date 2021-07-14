@@ -199,6 +199,10 @@ footer{
     .highlights-banner img{
         margin-top: 29px;
     }
+    .footer-item{
+        padding-top: 20px;
+        margin-top: 30px;
+    }
     .footer-logo{
         width: 300px;
     }
@@ -226,6 +230,18 @@ footer{
         margin-right: 0;
         margin: 0 15px;
     }
-    
-    
+    .highlights-copa-2021 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .highlights-detail{
+        padding-left: 15px;
+    }
+    .highlights-banner{
+        padding: 15px;
+    }
+    .highlights-banner img{
+        margin-top: 70px;
+        height:300px ;
+    }
 }
