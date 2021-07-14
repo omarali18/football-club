@@ -123,9 +123,78 @@ body{
     background-color: #E02C6D;
 }
 .highlights-history{
+    color: #6C6C6C;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 24px ;
 }
 .highlights-banner img{
     width: 100%;
+}
+/* =============================
+        footer Part start 
+================================*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 178px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo{
+    width: 500px;
+}
+.footer-icon{
+    font-size: 32px;
+    
+    
+}
+.bg-color{
+    background-color: #E7E7E8;
+    border-radius: 50%;
+    padding: 10px;
+}
+@media only screen and (max-width:688px){
+   
+    .header-divide{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .header-text{
+        font-size: 36px;
+        line-height: 50px;
+        padding-left: 16px;
+        margin-bottom: 50px;
+    }
+    .header-title{
+        margin-bottom: 20px;
+    }
+    .banner img{
+        width: 329px;
+    height: 259.17px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .player{
+        margin: 0 15px;
+    }
+    .highlights-copa-2021 {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 60px 20px;
+    }
+    .highlights-detail {
+        padding-right: 0;
+    }
+    .highlights-banner img{
+        margin-top: 29px;
+    }
+    .footer-logo{
+        width: 300px;
+    }
 }
